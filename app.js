@@ -28,7 +28,7 @@ console.log(calcAreaOfTriangle(20, 20))
 
 //5.
 function appendFrontend(string) {
-    return string + Frontend
+    return string + 'Frontend'
 }
 
 console.log(appendFrontend('Apple'))
