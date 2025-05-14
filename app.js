@@ -33,6 +33,34 @@ function appendFrontend(string) {
 
 console.log(appendFrontend('Apple'))
 
+//6.
+function sumGreaterThan100(num1, num2) {
+    return num1 + num2 > 100
+}
+
+console.log(sumGreaterThan100(50, 52))
+
+//7.
+function lessThanOrEqualToZero(num) {
+    return num <= 0
+}
+
+console.log(lessThanOrEqualToZero(0))
+
+//8.
+function oppositeBoolean(bool) {
+    return !bool;
+}
+
+console.log(oppositeBoolean(false))
+
+//9.
+function isNotZero(num) {
+    return num !== 0
+}
+
+console.log(isNotZero(5))
+
 //12.
 function booleanInteger(num) {
   return num % 2 == 0 ? 1 : -1
