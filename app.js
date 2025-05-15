@@ -61,10 +61,30 @@ function isNotZero(num) {
 
 console.log(isNotZero(5))
 
+//10. 
+function calcRemainder(num1, num2) {
+    return num1 % num2
+}
+
+console.log(calcRemainder(4, 2))
+
+//11.
+function isOdd(num) {
+    return num % 2 !== 0
+}
+
+console.log(isOdd(1))
+
 //12.
 function booleanInteger(num) {
   return num % 2 == 0 ? 1 : -1
 }
 
 console.log(booleanInteger(2))
-  
+
+//13. 
+function isLoggedInAndSubscribed(loggedIn, subscribed) {
+   return (loggedIn === 'LOGGED_IN') && (subscribed === 'SUBSCRIBED')
+    }
+
+console.log(isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED'))
